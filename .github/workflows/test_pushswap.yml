@@ -32,5 +32,8 @@ jobs:
     - name: checkout
       uses: actions/checkout@v2
 
+    - name: make
+      run: make
+
     - name: tests_bash
       run: tests/test_pushswap.sh
